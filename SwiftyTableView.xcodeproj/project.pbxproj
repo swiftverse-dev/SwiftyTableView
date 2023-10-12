@@ -38,6 +38,7 @@
 		0132B5862AD82A6D00D4AE55 /* ListViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5852AD82A6D00D4AE55 /* ListViewController+Utils.swift */; };
 		0132B58A2AD83BDC00D4AE55 /* SettingsListPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5892AD83BDC00D4AE55 /* SettingsListPreview.swift */; };
 		0132B58C2AD8413400D4AE55 /* SnapshotPreview.png in Resources */ = {isa = PBXBuildFile; fileRef = 0132B58B2AD8413400D4AE55 /* SnapshotPreview.png */; };
+		0132B58E2AD8425900D4AE55 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0132B58D2AD8425900D4AE55 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		0132B5852AD82A6D00D4AE55 /* ListViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+Utils.swift"; sourceTree = "<group>"; };
 		0132B5892AD83BDC00D4AE55 /* SettingsListPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsListPreview.swift; sourceTree = "<group>"; };
 		0132B58B2AD8413400D4AE55 /* SnapshotPreview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SnapshotPreview.png; sourceTree = "<group>"; };
+		0132B58D2AD8425900D4AE55 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		0132B5262AD7DA2700D4AE55 = {
 			isa = PBXGroup;
 			children = (
+				0132B58D2AD8425900D4AE55 /* README.md */,
 				0132B5312AD7DA2700D4AE55 /* SwiftyTableView */,
 				0132B5302AD7DA2700D4AE55 /* Products */,
 			);
@@ -291,6 +294,7 @@
 				0132B53F2AD7DA2900D4AE55 /* LaunchScreen.storyboard in Resources */,
 				0132B5722AD7F56300D4AE55 /* ToggleTableViewCell.xib in Resources */,
 				0132B58C2AD8413400D4AE55 /* SnapshotPreview.png in Resources */,
+				0132B58E2AD8425900D4AE55 /* README.md in Resources */,
 				0132B56C2AD7F12600D4AE55 /* UserTableViewCell.xib in Resources */,
 				0132B57A2AD7FA5400D4AE55 /* SettingTableViewCell.xib in Resources */,
 				0132B53C2AD7DA2900D4AE55 /* Assets.xcassets in Resources */,
