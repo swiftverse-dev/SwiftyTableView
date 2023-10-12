@@ -18,5 +18,4 @@ ListViewController {
 }
 .navigationTitle("Settings")
 ```
-
-![plot](SwiftyTableView/Previews/SnapshotPreview.png)
+![](SwiftyTableView/Previews/SnapshotPreview.png | width=100)
