@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0132B5332AD7DA2700D4AE55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5322AD7DA2700D4AE55 /* AppDelegate.swift */; };
+		0132B5352AD7DA2700D4AE55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5342AD7DA2700D4AE55 /* SceneDelegate.swift */; };
+		0132B53C2AD7DA2900D4AE55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0132B53B2AD7DA2900D4AE55 /* Assets.xcassets */; };
+		0132B53F2AD7DA2900D4AE55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0132B53D2AD7DA2900D4AE55 /* LaunchScreen.storyboard */; };
+		0132B5532AD7E17200D4AE55 /* BaseSectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B54A2AD7E17200D4AE55 /* BaseSectionDataSource.swift */; };
+		0132B5542AD7E17200D4AE55 /* SectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B54B2AD7E17200D4AE55 /* SectionController.swift */; };
+		0132B5552AD7E17200D4AE55 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B54C2AD7E17200D4AE55 /* ListViewController.swift */; };
+		0132B5562AD7E17200D4AE55 /* BaseCellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B54E2AD7E17200D4AE55 /* BaseCellDataSource.swift */; };
+		0132B5572AD7E17200D4AE55 /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B54F2AD7E17200D4AE55 /* CellController.swift */; };
+		0132B5582AD7E17200D4AE55 /* ListElementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5502AD7E17200D4AE55 /* ListElementController.swift */; };
+		0132B5592AD7E17200D4AE55 /* ListViewController+convenienceInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5522AD7E17200D4AE55 /* ListViewController+convenienceInit.swift */; };
+		0132B55D2AD7E1EB00D4AE55 /* UITableView+Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B55B2AD7E1EB00D4AE55 /* UITableView+Dequeue.swift */; };
+		0132B55E2AD7E1EB00D4AE55 /* UITableViewCell+identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B55C2AD7E1EB00D4AE55 /* UITableViewCell+identifiers.swift */; };
+		0132B5602AD7E60B00D4AE55 /* SectionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B55F2AD7E60B00D4AE55 /* SectionBuilder.swift */; };
+		0132B5632AD7E8FC00D4AE55 /* CellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5622AD7E8FC00D4AE55 /* CellBuilder.swift */; };
+		0132B5652AD7E92500D4AE55 /* BaseSectionDataSource+convenienceInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5642AD7E92500D4AE55 /* BaseSectionDataSource+convenienceInit.swift */; };
+		0132B5682AD7F0FC00D4AE55 /* UserCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5672AD7F0FC00D4AE55 /* UserCellController.swift */; };
+		0132B56B2AD7F12600D4AE55 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5692AD7F12600D4AE55 /* UserTableViewCell.swift */; };
+		0132B56C2AD7F12600D4AE55 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0132B56A2AD7F12600D4AE55 /* UserTableViewCell.xib */; };
+		0132B5712AD7F56300D4AE55 /* ToggleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B56F2AD7F56300D4AE55 /* ToggleTableViewCell.swift */; };
+		0132B5722AD7F56300D4AE55 /* ToggleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0132B5702AD7F56300D4AE55 /* ToggleTableViewCell.xib */; };
+		0132B5742AD7F7F400D4AE55 /* ToggleCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5732AD7F7F400D4AE55 /* ToggleCellController.swift */; };
+		0132B5792AD7FA5400D4AE55 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5772AD7FA5400D4AE55 /* SettingTableViewCell.swift */; };
+		0132B57A2AD7FA5400D4AE55 /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0132B5782AD7FA5400D4AE55 /* SettingTableViewCell.xib */; };
+		0132B57C2AD7FB6500D4AE55 /* SettingCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B57B2AD7FB6500D4AE55 /* SettingCellModel.swift */; };
+		0132B57E2AD7FD4D00D4AE55 /* SettingCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B57D2AD7FD4D00D4AE55 /* SettingCellController.swift */; };
+		0132B5802AD7FD8B00D4AE55 /* SettingSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B57F2AD7FD8B00D4AE55 /* SettingSectionController.swift */; };
+		0132B5842AD8025D00D4AE55 /* CellRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5832AD8025D00D4AE55 /* CellRegistration.swift */; };
+		0132B5862AD82A6D00D4AE55 /* ListViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5852AD82A6D00D4AE55 /* ListViewController+Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0132B52F2AD7DA2700D4AE55 /* SwiftyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0132B5322AD7DA2700D4AE55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0132B5342AD7DA2700D4AE55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0132B53B2AD7DA2900D4AE55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0132B53E2AD7DA2900D4AE55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0132B5402AD7DA2900D4AE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0132B54A2AD7E17200D4AE55 /* BaseSectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseSectionDataSource.swift; sourceTree = "<group>"; };
+		0132B54B2AD7E17200D4AE55 /* SectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionController.swift; sourceTree = "<group>"; };
+		0132B54C2AD7E17200D4AE55 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		0132B54E2AD7E17200D4AE55 /* BaseCellDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCellDataSource.swift; sourceTree = "<group>"; };
+		0132B54F2AD7E17200D4AE55 /* CellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
+		0132B5502AD7E17200D4AE55 /* ListElementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListElementController.swift; sourceTree = "<group>"; };
+		0132B5522AD7E17200D4AE55 /* ListViewController+convenienceInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListViewController+convenienceInit.swift"; sourceTree = "<group>"; };
+		0132B55B2AD7E1EB00D4AE55 /* UITableView+Dequeue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeue.swift"; sourceTree = "<group>"; };
+		0132B55C2AD7E1EB00D4AE55 /* UITableViewCell+identifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+identifiers.swift"; sourceTree = "<group>"; };
+		0132B55F2AD7E60B00D4AE55 /* SectionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBuilder.swift; sourceTree = "<group>"; };
+		0132B5622AD7E8FC00D4AE55 /* CellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBuilder.swift; sourceTree = "<group>"; };
+		0132B5642AD7E92500D4AE55 /* BaseSectionDataSource+convenienceInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseSectionDataSource+convenienceInit.swift"; sourceTree = "<group>"; };
+		0132B5672AD7F0FC00D4AE55 /* UserCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellController.swift; sourceTree = "<group>"; };
+		0132B5692AD7F12600D4AE55 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		0132B56A2AD7F12600D4AE55 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		0132B56F2AD7F56300D4AE55 /* ToggleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTableViewCell.swift; sourceTree = "<group>"; };
+		0132B5702AD7F56300D4AE55 /* ToggleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToggleTableViewCell.xib; sourceTree = "<group>"; };
+		0132B5732AD7F7F400D4AE55 /* ToggleCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleCellController.swift; sourceTree = "<group>"; };
+		0132B5772AD7FA5400D4AE55 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		0132B5782AD7FA5400D4AE55 /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		0132B57B2AD7FB6500D4AE55 /* SettingCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCellModel.swift; sourceTree = "<group>"; };
+		0132B57D2AD7FD4D00D4AE55 /* SettingCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCellController.swift; sourceTree = "<group>"; };
+		0132B57F2AD7FD8B00D4AE55 /* SettingSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSectionController.swift; sourceTree = "<group>"; };
+		0132B5832AD8025D00D4AE55 /* CellRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRegistration.swift; sourceTree = "<group>"; };
+		0132B5852AD82A6D00D4AE55 /* ListViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+Utils.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0132B52C2AD7DA2700D4AE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0132B5262AD7DA2700D4AE55 = {
+			isa = PBXGroup;
+			children = (
+				0132B5312AD7DA2700D4AE55 /* SwiftyTableView */,
+				0132B5302AD7DA2700D4AE55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0132B5302AD7DA2700D4AE55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0132B52F2AD7DA2700D4AE55 /* SwiftyTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0132B5312AD7DA2700D4AE55 /* SwiftyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				0132B5462AD7E01600D4AE55 /* App Startup */,
+				0132B5482AD7E17200D4AE55 /* List Controller */,
+				0132B5872AD83AC800D4AE55 /* Settings Feature */,
+				0132B53B2AD7DA2900D4AE55 /* Assets.xcassets */,
+				0132B5402AD7DA2900D4AE55 /* Info.plist */,
+			);
+			path = SwiftyTableView;
+			sourceTree = "<group>";
+		};
+		0132B5462AD7E01600D4AE55 /* App Startup */ = {
+			isa = PBXGroup;
+			children = (
+				0132B5322AD7DA2700D4AE55 /* AppDelegate.swift */,
+				0132B5342AD7DA2700D4AE55 /* SceneDelegate.swift */,
+				0132B53D2AD7DA2900D4AE55 /* LaunchScreen.storyboard */,
+			);
+			path = "App Startup";
+			sourceTree = "<group>";
+		};
+		0132B5482AD7E17200D4AE55 /* List Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0132B5512AD7E17200D4AE55 /* Helpers */,
+				0132B54D2AD7E17200D4AE55 /* Cell */,
+				0132B5492AD7E17200D4AE55 /* Section */,
+				0132B54C2AD7E17200D4AE55 /* ListViewController.swift */,
+				0132B5502AD7E17200D4AE55 /* ListElementController.swift */,
+				0132B5832AD8025D00D4AE55 /* CellRegistration.swift */,
+			);
+			path = "List Controller";
+			sourceTree = "<group>";
+		};
+		0132B5492AD7E17200D4AE55 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				0132B54A2AD7E17200D4AE55 /* BaseSectionDataSource.swift */,
+				0132B54B2AD7E17200D4AE55 /* SectionController.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		0132B54D2AD7E17200D4AE55 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0132B54E2AD7E17200D4AE55 /* BaseCellDataSource.swift */,
+				0132B54F2AD7E17200D4AE55 /* CellController.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0132B5512AD7E17200D4AE55 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0132B5522AD7E17200D4AE55 /* ListViewController+convenienceInit.swift */,
+				0132B5852AD82A6D00D4AE55 /* ListViewController+Utils.swift */,
+				0132B5642AD7E92500D4AE55 /* BaseSectionDataSource+convenienceInit.swift */,
+				0132B55B2AD7E1EB00D4AE55 /* UITableView+Dequeue.swift */,
+				0132B55C2AD7E1EB00D4AE55 /* UITableViewCell+identifiers.swift */,
+				0132B55F2AD7E60B00D4AE55 /* SectionBuilder.swift */,
+				0132B5622AD7E8FC00D4AE55 /* CellBuilder.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0132B5662AD7E98900D4AE55 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0132B5762AD7FA3700D4AE55 /* Setting Cell */,
+				0132B56E2AD7F55000D4AE55 /* Toggle Cell */,
+				0132B56D2AD7F54300D4AE55 /* User Cell */,
+				0132B57F2AD7FD8B00D4AE55 /* SettingSectionController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0132B56D2AD7F54300D4AE55 /* User Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0132B5672AD7F0FC00D4AE55 /* UserCellController.swift */,
+				0132B5692AD7F12600D4AE55 /* UserTableViewCell.swift */,
+				0132B56A2AD7F12600D4AE55 /* UserTableViewCell.xib */,
+			);
+			path = "User Cell";
+			sourceTree = "<group>";
+		};
+		0132B56E2AD7F55000D4AE55 /* Toggle Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0132B56F2AD7F56300D4AE55 /* ToggleTableViewCell.swift */,
+				0132B5732AD7F7F400D4AE55 /* ToggleCellController.swift */,
+				0132B5702AD7F56300D4AE55 /* ToggleTableViewCell.xib */,
+			);
+			path = "Toggle Cell";
+			sourceTree = "<group>";
+		};
+		0132B5762AD7FA3700D4AE55 /* Setting Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0132B5772AD7FA5400D4AE55 /* SettingTableViewCell.swift */,
+				0132B5782AD7FA5400D4AE55 /* SettingTableViewCell.xib */,
+				0132B57D2AD7FD4D00D4AE55 /* SettingCellController.swift */,
+			);
+			path = "Setting Cell";
+			sourceTree = "<group>";
+		};
+		0132B5872AD83AC800D4AE55 /* Settings Feature */ = {
+			isa = PBXGroup;
+			children = (
+				0132B57B2AD7FB6500D4AE55 /* SettingCellModel.swift */,
+				0132B5662AD7E98900D4AE55 /* Controllers */,
+			);
+			path = "Settings Feature";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0132B52E2AD7DA2700D4AE55 /* SwiftyTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0132B5432AD7DA2900D4AE55 /* Build configuration list for PBXNativeTarget "SwiftyTableView" */;
+			buildPhases = (
+				0132B52B2AD7DA2700D4AE55 /* Sources */,
+				0132B52C2AD7DA2700D4AE55 /* Frameworks */,
+				0132B52D2AD7DA2700D4AE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyTableView;
+			productName = SwiftyTableView;
+			productReference = 0132B52F2AD7DA2700D4AE55 /* SwiftyTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0132B5272AD7DA2700D4AE55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0132B52E2AD7DA2700D4AE55 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 0132B52A2AD7DA2700D4AE55 /* Build configuration list for PBXProject "SwiftyTableView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0132B5262AD7DA2700D4AE55;
+			productRefGroup = 0132B5302AD7DA2700D4AE55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0132B52E2AD7DA2700D4AE55 /* SwiftyTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0132B52D2AD7DA2700D4AE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0132B53F2AD7DA2900D4AE55 /* LaunchScreen.storyboard in Resources */,
+				0132B5722AD7F56300D4AE55 /* ToggleTableViewCell.xib in Resources */,
+				0132B56C2AD7F12600D4AE55 /* UserTableViewCell.xib in Resources */,
+				0132B57A2AD7FA5400D4AE55 /* SettingTableViewCell.xib in Resources */,
+				0132B53C2AD7DA2900D4AE55 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0132B52B2AD7DA2700D4AE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0132B57C2AD7FB6500D4AE55 /* SettingCellModel.swift in Sources */,
+				0132B5842AD8025D00D4AE55 /* CellRegistration.swift in Sources */,
+				0132B5582AD7E17200D4AE55 /* ListElementController.swift in Sources */,
+				0132B5572AD7E17200D4AE55 /* CellController.swift in Sources */,
+				0132B5592AD7E17200D4AE55 /* ListViewController+convenienceInit.swift in Sources */,
+				0132B5332AD7DA2700D4AE55 /* AppDelegate.swift in Sources */,
+				0132B56B2AD7F12600D4AE55 /* UserTableViewCell.swift in Sources */,
+				0132B5602AD7E60B00D4AE55 /* SectionBuilder.swift in Sources */,
+				0132B5862AD82A6D00D4AE55 /* ListViewController+Utils.swift in Sources */,
+				0132B5552AD7E17200D4AE55 /* ListViewController.swift in Sources */,
+				0132B5532AD7E17200D4AE55 /* BaseSectionDataSource.swift in Sources */,
+				0132B5562AD7E17200D4AE55 /* BaseCellDataSource.swift in Sources */,
+				0132B55E2AD7E1EB00D4AE55 /* UITableViewCell+identifiers.swift in Sources */,
+				0132B5632AD7E8FC00D4AE55 /* CellBuilder.swift in Sources */,
+				0132B57E2AD7FD4D00D4AE55 /* SettingCellController.swift in Sources */,
+				0132B5742AD7F7F400D4AE55 /* ToggleCellController.swift in Sources */,
+				0132B5802AD7FD8B00D4AE55 /* SettingSectionController.swift in Sources */,
+				0132B5792AD7FA5400D4AE55 /* SettingTableViewCell.swift in Sources */,
+				0132B5352AD7DA2700D4AE55 /* SceneDelegate.swift in Sources */,
+				0132B55D2AD7E1EB00D4AE55 /* UITableView+Dequeue.swift in Sources */,
+				0132B5542AD7E17200D4AE55 /* SectionController.swift in Sources */,
+				0132B5682AD7F0FC00D4AE55 /* UserCellController.swift in Sources */,
+				0132B5652AD7E92500D4AE55 /* BaseSectionDataSource+convenienceInit.swift in Sources */,
+				0132B5712AD7F56300D4AE55 /* ToggleTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0132B53D2AD7DA2900D4AE55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0132B53E2AD7DA2900D4AE55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0132B5412AD7DA2900D4AE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0132B5422AD7DA2900D4AE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0132B5442AD7DA2900D4AE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RD2JZ43A47;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftyTableView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.switverse.SwiftyTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0132B5452AD7DA2900D4AE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RD2JZ43A47;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftyTableView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.switverse.SwiftyTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0132B52A2AD7DA2700D4AE55 /* Build configuration list for PBXProject "SwiftyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0132B5412AD7DA2900D4AE55 /* Debug */,
+				0132B5422AD7DA2900D4AE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0132B5432AD7DA2900D4AE55 /* Build configuration list for PBXNativeTarget "SwiftyTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0132B5442AD7DA2900D4AE55 /* Debug */,
+				0132B5452AD7DA2900D4AE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0132B5272AD7DA2700D4AE55 /* Project object */;
+}

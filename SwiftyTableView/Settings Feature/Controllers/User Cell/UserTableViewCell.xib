@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="xsC-Te-mQG" customClass="UserTableViewCell" customModule="SwiftyTableView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xsC-Te-mQG" id="yCM-lU-sgp">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WCd-aW-z8a">
+                        <rect key="frame" x="20" y="20" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="1MM-22-sXm"/>
+                            <constraint firstAttribute="width" secondItem="WCd-aW-z8a" secondAttribute="height" id="S2U-3g-lCk"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lWX-Iv-g8r">
+                        <rect key="frame" x="88" y="28.000000000000004" width="285" height="44.333333333333343"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Il-Md-3r9">
+                                <rect key="frame" x="0.0" y="0.0" width="285" height="24"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRD-Dh-PZk">
+                                <rect key="frame" x="0.0" y="24" width="285" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="WCd-aW-z8a" firstAttribute="top" relation="greaterThanOrEqual" secondItem="yCM-lU-sgp" secondAttribute="top" constant="20" symbolic="YES" id="6iL-T2-lrB"/>
+                    <constraint firstItem="WCd-aW-z8a" firstAttribute="centerY" secondItem="yCM-lU-sgp" secondAttribute="centerY" id="9Cg-9L-rG1"/>
+                    <constraint firstItem="WCd-aW-z8a" firstAttribute="leading" secondItem="yCM-lU-sgp" secondAttribute="leading" constant="20" symbolic="YES" id="Oto-ek-6fE"/>
+                    <constraint firstItem="lWX-Iv-g8r" firstAttribute="leading" secondItem="WCd-aW-z8a" secondAttribute="trailing" constant="8" symbolic="YES" id="W7H-FB-QPl"/>
+                    <constraint firstAttribute="trailing" secondItem="lWX-Iv-g8r" secondAttribute="trailing" constant="20" symbolic="YES" id="kj7-gy-bmh"/>
+                    <constraint firstItem="lWX-Iv-g8r" firstAttribute="centerY" secondItem="yCM-lU-sgp" secondAttribute="centerY" id="oKV-1m-EOG"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="lWX-Iv-g8r" secondAttribute="bottom" constant="20" symbolic="YES" id="s32-4a-91j"/>
+                    <constraint firstItem="lWX-Iv-g8r" firstAttribute="top" relation="greaterThanOrEqual" secondItem="yCM-lU-sgp" secondAttribute="top" constant="20" symbolic="YES" id="uDx-cs-khF"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="WCd-aW-z8a" secondAttribute="bottom" constant="20" symbolic="YES" id="zOp-Pv-b9w"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+            <connections>
+                <outlet property="primaryLabel" destination="4Il-Md-3r9" id="AKk-sl-s6t"/>
+                <outlet property="profileImageView" destination="WCd-aW-z8a" id="P3l-LC-5mm"/>
+                <outlet property="secondaryLabel" destination="vRD-Dh-PZk" id="nAp-v3-e5a"/>
+            </connections>
+            <point key="canvasLocation" x="139.69465648854961" y="95.774647887323951"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
