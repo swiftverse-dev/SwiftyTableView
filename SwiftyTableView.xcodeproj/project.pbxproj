@@ -36,6 +36,7 @@
 		0132B5802AD7FD8B00D4AE55 /* SettingSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B57F2AD7FD8B00D4AE55 /* SettingSectionController.swift */; };
 		0132B5842AD8025D00D4AE55 /* CellRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5832AD8025D00D4AE55 /* CellRegistration.swift */; };
 		0132B5862AD82A6D00D4AE55 /* ListViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5852AD82A6D00D4AE55 /* ListViewController+Utils.swift */; };
+		0132B58A2AD83BDC00D4AE55 /* SettingsListPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132B5892AD83BDC00D4AE55 /* SettingsListPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		0132B57F2AD7FD8B00D4AE55 /* SettingSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSectionController.swift; sourceTree = "<group>"; };
 		0132B5832AD8025D00D4AE55 /* CellRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRegistration.swift; sourceTree = "<group>"; };
 		0132B5852AD82A6D00D4AE55 /* ListViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+Utils.swift"; sourceTree = "<group>"; };
+		0132B5892AD83BDC00D4AE55 /* SettingsListPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsListPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				0132B5462AD7E01600D4AE55 /* App Startup */,
 				0132B5482AD7E17200D4AE55 /* List Controller */,
 				0132B5872AD83AC800D4AE55 /* Settings Feature */,
+				0132B5882AD83BCF00D4AE55 /* Previews */,
 				0132B53B2AD7DA2900D4AE55 /* Assets.xcassets */,
 				0132B5402AD7DA2900D4AE55 /* Info.plist */,
 			);
@@ -216,6 +219,14 @@
 			path = "Settings Feature";
 			sourceTree = "<group>";
 		};
+		0132B5882AD83BCF00D4AE55 /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				0132B5892AD83BDC00D4AE55 /* SettingsListPreview.swift */,
+			);
+			path = Previews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -308,6 +319,7 @@
 				0132B5802AD7FD8B00D4AE55 /* SettingSectionController.swift in Sources */,
 				0132B5792AD7FA5400D4AE55 /* SettingTableViewCell.swift in Sources */,
 				0132B5352AD7DA2700D4AE55 /* SceneDelegate.swift in Sources */,
+				0132B58A2AD83BDC00D4AE55 /* SettingsListPreview.swift in Sources */,
 				0132B55D2AD7E1EB00D4AE55 /* UITableView+Dequeue.swift in Sources */,
 				0132B5542AD7E17200D4AE55 /* SectionController.swift in Sources */,
 				0132B5682AD7F0FC00D4AE55 /* UserCellController.swift in Sources */,
